@@ -18,3 +18,4 @@ def logarithm(a, b): loga(b)# use math library/raise ValueError
 
 def exponent(a, b): ab
 
+#gnfhiofdonkfj
