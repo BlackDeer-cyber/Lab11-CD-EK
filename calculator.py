@@ -4,10 +4,6 @@ calculator.py
 
 One function per operation, in order.
 """
-# First example
-def add(a, b):
-    pass
-
 import math
 
 def add(a, b): a + b
