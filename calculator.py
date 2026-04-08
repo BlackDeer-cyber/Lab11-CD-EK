@@ -6,16 +6,45 @@ One function per operation, in order.
 """
 import math
 
-def add(a, b): a + b
+def add(a, b):
+    return a + b
 
-def subtract(a, b): a - b
+def subtract(a, b):
+    return a - b
 
-def multiply(a, b): a * b
+def sub(a,b):
+    returna-b
 
-def divide(a, b): b / a   # raise ZeroDivisionError if a == 0
+def multiply(a, b):
+    return a * b
 
-def logarithm(a, b): loga(b)# use math library/raise ValueError
+def mul(a, b):
+    return a * b
 
-def exponent(a, b): ab
+def div(a,b):
+    if a == 0:
+        raise(Exception("ZeroDivisionError"))
+    return b / a   # raise ZeroDivisionError if a == 0
 
+
+# def divide(a, b):
+#     if a == 0:
+#         raise(Exception("ZeroDivisionError"))
+#     return b / a   # raise ZeroDivisionError if a == 0
+
+def log(a,b):
+    if b <= 0 or a <= 0:
+        raise(Exception("ValueError"))
+    return math.log(b, a) #log b base a
+
+def logarithm(a, b):
+    if b <= 0 or a <= 0:
+        raise(Exception("ValueError"))
+    return math.log(b, a) #log b base a
+
+def exponent(a, b):
+    returna**b
+
+def exp(a,b):
+    return a**b
 #gnfhiofdonkfj
